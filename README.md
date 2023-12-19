@@ -6,9 +6,16 @@
 
 1. 安裝 Node.js v18.14.0，[下載連結](https://nodejs.org/en/blog/release/v18.14.0)
 
-2. 在專案資料夾目錄下，開啟 Terminal，輸入"node app.js"，即可開始使用。
+2. 下載相關套件，在專案資料夾目錄下，開啟 Terminal，輸入以下內容。
+
     ```bash
-    node app.js
+    npm install
+    ```
+
+3. 在專案資料夾目錄下，開啟 Terminal，輸入以下內容，即可開始使用。
+
+    ```bash
+     node app.js
     ```
 
 ## 使用範例
