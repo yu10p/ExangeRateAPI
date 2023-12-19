@@ -44,6 +44,7 @@ app.get("/exchange", (req, res) => {
     //解析出URL上的參數
     const { source, target, amount } = req.query;
 
+    //判斷輸入的貨幣是否存在
     if (!exchangeRate.currencies[source] || !exchangeRate.currencies[target]) {
         return res.status(400).json({ msg: "Invalid currency" });
     }
